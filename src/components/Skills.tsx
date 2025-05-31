@@ -35,28 +35,28 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
   const skillCategories = [
     {
       title: 'Frontend',
-      skills: ['React', 'Vue', 'Angular', 'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'Tailwind']
+      skills: ['React', 'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'Tailwind', 'Bootstrap', 'Next.js']
     },
     {
       title: 'Backend',
-      skills: ['Node.js', 'Python', 'Java', 'PHP', 'Express', 'Django', 'Spring Boot']
+      skills: ['Node.js', 'Python', 'Express', 'RESTful APIs']
     },
     {
       title: 'Database',
-      skills: ['MongoDB', 'PostgreSQL', 'MySQL', 'Redis', 'Firebase']
+      skills: ['MongoDB',  'MySQL', 'Firebase' ]
     },
-    {
-      title: 'DevOps',
-      skills: ['Docker', 'Kubernetes', 'AWS', 'GCP', 'CI/CD', 'Jenkins']
-    },
+    // {
+    //   title: 'DevOps',
+    //   skills: ['Docker', 'Kubernetes', 'AWS', 'GCP', 'CI/CD', 'Jenkins']
+    // },
     {
       title: 'Tools',
-      skills: ['Git', 'Webpack', 'Vite', 'Jest', 'Cypress', 'Postman']
+      skills: ['Git', 'Vite', 'Postman', 'VS Code',]
     },
-    {
-      title: 'Mobile',
-      skills: ['React Native', 'Flutter', 'iOS', 'Android', 'Ionic']
-    }
+    // {
+    //   title: 'Mobile',
+    //   skills: ['React Native', 'Flutter', 'iOS', 'Android', 'Ionic']
+    // }
   ];
 
   return (
@@ -75,14 +75,14 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
               <span className={darkMode ? "text-teal-400" : "text-green-600"}>Technical Expertise</span>
             </h3>
             <p className="text-lg leading-relaxed mb-6 text-gray-600 dark:text-gray-300">
-              Main area of my expertise is front-end development (client side of the web). 
-              I'm proficient with HTML, CSS, JavaScript (TypeScript), building small and medium 
-              web apps with React, Angular, Vue, and creating custom components and interactive layouts.
+              I am a full-stack developer with a strong focus on building responsive and user-friendly web 
+              applications. My expertise lies in modern JavaScript frameworks like React 
+              along with proficiency in TypeScript.
             </p>
             <p className="text-lg leading-relaxed text-gray-600 dark:text-gray-300">
               I also have experience with back-end development using Node.js, Express, and database 
-              technologies like MongoDB and PostgreSQL. I'm familiar with cloud platforms such as AWS and 
-              containerization with Docker.
+              technologies like MongoDB and SQL.
+              I am passionate about creating efficient, scalable, and maintainable code, and I enjoy
             </p>
           </motion.div>
           

@@ -4,18 +4,19 @@ import {
   FileText, Mail, Home, Bell, Folder
 } from 'lucide-react';
 // Import react-icons for social icons
-import { FaTwitter, FaLinkedin, FaGithub, FaDribbble, FaMedium } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaHackerrank  } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
 
 type SidebarProps = {
   darkMode: boolean;
 };
 
 const socialLinks = [
-  { icon: <FaTwitter size={18} />, url: 'https://twitter.com', label: 'Twitter' },
-  { icon: <FaLinkedin size={18} />, url: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: <FaGithub size={18} />, url: 'https://github.com', label: 'GitHub' },
-  { icon: <FaDribbble size={18} />, url: 'https://dribbble.com', label: 'Dribbble' },
-  { icon: <FaMedium size={18} />, url: 'https://medium.com', label: 'Medium' },
+  { icon: <FaLinkedin size={18} />, url: 'https://www.linkedin.com/in/muskan-gupta-858753252/', label: 'LinkedIn' },
+  { icon: <FaGithub size={18} />, url: 'https://github.com/muskaan-gupta', label: 'GitHub' },
+  { icon: <SiLeetcode size={20} />, label: 'LeetCode', href: 'https://leetcode.com/muskan_gupta67/' },
+   { icon: <FaHackerrank size={18} />, url: 'https://www.hackerrank.com/profile/CSAI_1520110', label: 'HackerRank' },
+  { icon: <Mail size={18} />, url: 'mailto:muskangupta7414@gmail.com', label: 'Mail' },
 ];
 
 const Sidebar: React.FC<SidebarProps> = ({ darkMode }) => {

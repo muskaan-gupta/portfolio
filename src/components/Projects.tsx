@@ -91,7 +91,6 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
       >
-        Projects
       </motion.h2>
       
       <div className="flex flex-wrap justify-center gap-4 mt-8">
@@ -102,10 +101,10 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
             className={`px-4 py-2 rounded-full transition-all duration-300 ${
               activeFilter === filter
                 ? darkMode 
-                  ? 'bg-teal-500 text-white' 
-                  : 'bg-green-500 text-white'
+                  ? 'bg-teal-500 text-black hover:bg-teal-600'
+                  : 'bg-green-500 text-black'
                 : darkMode
-                  ? 'bg-gray-800 text-gray-300 hover:bg-gray-700'
+                  ? 'bg-gray-800 text-teal-500 hover:bg-gray-700'
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
             }`}
           >

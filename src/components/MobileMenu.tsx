@@ -43,7 +43,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ darkMode, onClose }) => {
         </div>
         <h2 className="mt-4 text-xl font-bold">Your Name</h2>
         <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-          Senior Software Engineer
+           Software Developer
         </p>
       </div>
 

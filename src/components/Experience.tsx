@@ -9,38 +9,19 @@ type ExperienceProps = {
 const Experience: React.FC<ExperienceProps> = ({ darkMode }) => {
   const experiences = [
     {
-      title: 'Senior Frontend Developer',
-      company: 'Tech Innovations Inc.',
-      period: 'Jan 2021 - Present',
-      description: 'Lead the frontend development team in building scalable web applications using React and TypeScript. Implemented responsive designs, improved performance, and mentored junior developers.',
+      title: 'Full Stack Developer',
+      company: 'WokGenics ',
+      period: 'November 2024- December 2024',
+      Location: 'Remote',
+      description: "Worked on a project to develop a full-stack web application using React and Node.js. Collaborated with designers and backend developers to create a seamless user experience.",
       achievements: [
-        'Reduced loading time by 40% through code optimization',
-        'Implemented a component library used across 5 projects',
-        'Led the migration from JavaScript to TypeScript',
+        "Led the development of key frontend modules using React and Tailwind CSS, improving UI responsiveness and user engagement",
+        "Built scalable backend APIs using Node.js and Express, reducing response times and supporting smooth data handling.",
+        "Contributed to deployment and testing, ensuring smooth production releases with minimal bugs",
       ],
+      technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express", "MongoDB"]
     },
-    {
-      title: 'Frontend Developer',
-      company: 'WebSolutions Group',
-      period: 'Mar 2018 - Dec 2020',
-      description: 'Developed responsive web applications using React, Redux, and SASS. Collaborated with UX designers to implement user interfaces and worked with backend developers to integrate APIs.',
-      achievements: [
-        'Built a real-time dashboard for monitoring system metrics',
-        'Contributed to the company\'s design system',
-        'Implemented automated testing with Jest and Cypress',
-      ],
-    },
-    {
-      title: 'Junior Web Developer',
-      company: 'Digital Creatives',
-      period: 'Jun 2016 - Feb 2018',
-      description: 'Created responsive websites using HTML, CSS, and JavaScript. Assisted in the development of WordPress themes and plugins. Worked closely with designers to implement pixel-perfect designs.',
-      achievements: [
-        'Developed 20+ client websites',
-        'Learned and implemented modern JavaScript frameworks',
-        'Improved site performance across client projects',
-      ],
-    },
+    
   ];
 
   return (
@@ -101,7 +82,23 @@ const Experience: React.FC<ExperienceProps> = ({ darkMode }) => {
                   {exp.achievements.map((achievement, i) => (
                     <li key={i} className="text-gray-600 dark:text-gray-300">{achievement}</li>
                   ))}
+
                 </ul>
+                <h5 className="font-medium mt-4 mb-2">Technologies Used:</h5>
+                <div className="flex flex-wrap gap-2 mt-2">
+  {exp.technologies.map((tech, i) => (
+    <span
+      key={i}
+      className={`px-3 py-1 rounded-full text-xs font-semibold shadow-sm
+        ${darkMode
+          ? 'bg-teal-900/60 text-teal-300'
+          : 'bg-green-100 text-green-700 border border-green-200'
+        }`}
+    >
+      {tech}
+    </span>
+  ))}
+</div>
               </div>
             </motion.div>
           ))}

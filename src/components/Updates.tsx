@@ -9,16 +9,29 @@ type UpdatesProps = {
 const Updates: React.FC<UpdatesProps> = ({ darkMode }) => {
   const updates = [
     {
-      title: 'Launched New Project',
-      date: 'June 15, 2023',
-      category: 'Project',
-      description: 'Successfully deployed a new e-commerce platform for a client. Built with React, Node.js, and MongoDB.',
+      title: 'Started a new project -CraftedNest',
+      date: 'December 5, 2024',
+      category: 'project',
+      description: 'Initiated a new project called CraftedNest, a platform for handmade crafts and artisan goods. The project aims to connect local artisans with customers looking for unique, handcrafted items using Next.js and Tailwind CSS.',
     },
     {
-      title: 'Spoke at React Conference 2023',
-      date: 'May 22, 2023',
+      title: 'Completed React Native Course',
+      date: 'May 15, 2025',
+      category: 'Education',
+      description: 'Finished an advanced course on React Native, enhancing my skills in mobile app development.',
+    },
+    {
+      title: 'Attended React Conference 2025',
+      date: 'April 20, 2025',
       category: 'Event',
-      description: 'Presented a talk on "Advanced State Management in React" at the annual React Conference.',
+      description: 'Participated in the annual React Conference, learning about the latest trends and best practices in React development.',
+
+    },
+    {
+      title: 'Launched Personal Portfolio Website',
+      date: 'May 30, 2025',
+      category: 'Project',
+      description: 'Created a new personal portfolio website to showcase my projects and skills. Built with React.js and Tailwind CSS for a modern look.',
     },
     {
       title: 'Published Article on Medium',
@@ -27,17 +40,23 @@ const Updates: React.FC<UpdatesProps> = ({ darkMode }) => {
       description: 'Published an in-depth article about microservices architecture and best practices.',
     },
     {
-      title: 'Completed AWS Certification',
-      date: 'March 5, 2023',
+      title: 'Completed Agentblazer Champion Certification',
+      date: 'May, 2025',
       category: 'Achievement',
-      description: 'Earned the AWS Certified Solutions Architect certification after months of preparation.',
+      description: 'This milestone marks my achievement in mastering Foundational AI agent development techniques and best practices from Agentforce.',
     },
     {
       title: 'Joined Open Source Project',
-      date: 'February 18, 2023',
+      date: 'November 10, 2024',
       category: 'Contribution',
-      description: 'Started contributing to a popular open-source JavaScript library as a core maintainer.',
+      description: 'Became a contributor to an open-source project focused on improving accessibility in web applications. Working on enhancing ARIA support and keyboard navigation.',
     },
+    {
+      title: 'Launched New Project - E-commerce Platform',
+      date: 'June 15, 2024',
+      category: 'Project',
+      description: 'Successfully deployed a new e-commerce platform for a client. Built with React, Node.js, and MongoDB.',
+    }
   ];
 
   return (

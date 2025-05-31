@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
-  Mail, Phone, MapPin, Send, Linkedin, Twitter, Github, Instagram 
+  Mail, Phone, MapPin, Send, Linkedin, Twitter, Github, Instagram , 
 } from 'lucide-react';
+import { SiLeetcode } from 'react-icons/si';
 
 type ContactProps = {
   darkMode: boolean;
@@ -21,13 +22,6 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
   
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // In a real application, you would send the form data to your backend
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! I will get back to you soon.');
-    setFormData({ name: '', email: '', subject: '', message: '' });
-  };
 
   return (
     <div className="container mx-auto px-4 md:px-8">
@@ -69,10 +63,10 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
             <h4 className="text-lg font-medium mb-4">Connect With Me</h4>
             <div className="flex gap-4">
               {[
-                { icon: <Linkedin size={20} />, label: 'LinkedIn', href: 'https://linkedin.com' },
-                { icon: <Twitter size={20} />, label: 'Twitter', href: 'https://twitter.com' },
-                { icon: <Github size={20} />, label: 'GitHub', href: 'https://github.com' },
-                { icon: <Instagram size={20} />, label: 'Instagram', href: 'https://instagram.com' },
+                { icon: <Linkedin size={20} />, label: 'LinkedIn', href: 'https://www.linkedin.com/in/muskan-gupta-858753252/' },
+                { icon: <Github size={20} />, label: 'GitHub', href: 'https://github.com/muskaan-gupta' },
+                { icon: <Instagram size={20} />, label: 'Instagram', href: 'https://www.instagram.com/muskaan.gupta__/#' },
+                 { icon: <SiLeetcode size={20} />, label: 'LeetCode', href: 'https://lhttps://leetcode.com/u/muskan_gupta67/eetcode.com/your-username/' },
               ].map((item, index) => (
                 <a
                   key={index}
@@ -101,7 +95,9 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
         >
           <div className={`p-8 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white shadow-lg'}`}>
             <h3 className="text-2xl font-semibold mb-6">Send Me a Message</h3>
-            <form onSubmit={handleSubmit}>
+            <form  action="https://api.web3forms.com/submit"
+  method="POST">
+    <input type="hidden" name="access_key" value="e648a27d-6937-4a75-ba96-1418d21692eb" />
               <div className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium mb-2">

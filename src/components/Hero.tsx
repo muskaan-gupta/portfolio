@@ -22,6 +22,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
           <h2 className="text-2xl md:text-3xl font-medium mb-4">
             <TypeAnimation
               sequence={[
+                2000,
                 'Software Engineer',
                 2000,
                 'Full-Stack Developer',
@@ -35,7 +36,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
               wrapper="span"
               speed={50}
               repeat={Infinity}
-              className={darkMode ? "text-gray-300" : "text-gray-700"}
+              className={darkMode ? "text-gray-300" : "text-gray-800"}
             />
           </h2>
           <p className="text-lg mb-8 max-w-lg leading-relaxed text-gray-600 dark:text-gray-300">
