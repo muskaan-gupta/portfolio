@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
-  Mail, Phone, MapPin, Send, Linkedin, Twitter, Github, Instagram , 
+  Mail, Phone, MapPin, Send, Linkedin, Github, Instagram , 
 } from 'lucide-react';
 import { SiLeetcode } from 'react-icons/si';
 
