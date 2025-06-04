@@ -24,7 +24,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
       category: 'Web App',
       description: "FlashLearn is a responsive flashcard app that helps users study using custom flip cards. Users can manage profiles, create, like, delete cards, and explore public flashcards anonymously.It’s a clean, intuitive interface designed to make studying engaging and organized.",
       technologies:  ["React", "TailwindCSS", "Node.js", "Express", "MongoDB"],
-      videoUrl: '#',
+      videoUrl: '',
       liveUrl: 'https://app-flashlearn.onrender.com/',
       githubUrl: 'https://github.com/muskaan-gupta/Flashcard-Learning-Tool',
     },

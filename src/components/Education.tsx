@@ -34,27 +34,34 @@ const Education: React.FC<EducationProps> = ({ darkMode }) => {
   
   const certifications = [
     {
-      title: 'AWS Certified Solutions Architect',
-      issuer: 'Amazon Web Services',
-      date: 'October 2022',
-      url: 'https://example.com/cert1',
+      title: 'Flipkart GRiD 6.0',
+
+      issuer: 'Flipkart',
+      date: 'October 2024',
+      url: 'https://drive.google.com/file/d/1kwnQhuGHu_oek1Di5UmyYfhAhheHbBX3/view?usp=sharing',
     },
     {
-      title: 'Google Professional Cloud Developer',
-      issuer: 'Google Cloud',
-      date: 'May 2022',
-      url: 'https://example.com/cert2',
+      title: 'AgentBlazer Championship',
+      issuer: 'Salesforce',
+      date: 'April 2025',
+      url: 'https://drive.google.com/file/d/11oA0XRcwolloCu82Kw4_7kb34FgwxCe3/view?usp=sharing',
     },
     {
-      title: 'React Advanced Certification',
+      title: 'React  Certification',
       issuer: 'Meta',
       date: 'January 2022',
       url: 'https://example.com/cert3',
     },
     {
-      title: 'Certified Kubernetes Administrator',
-      issuer: 'Cloud Native Computing Foundation',
-      date: 'November 2021',
+      title: 'Python Certification',
+      issuer: 'Infosys',
+      date: 'November 2022',
+      url: 'https://example.com/cert4',
+    },
+    {
+      title: ' Objecjt Oriented Programming using Python',
+      issuer: 'Infosys',
+      date: 'January 2023',
       url: 'https://example.com/cert4',
     },
   ];
