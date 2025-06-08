@@ -15,7 +15,6 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
       >
-        About Me
       </motion.h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">

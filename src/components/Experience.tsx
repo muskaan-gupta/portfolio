@@ -33,7 +33,6 @@ const Experience: React.FC<ExperienceProps> = ({ darkMode }) => {
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
       >
-        Experience
       </motion.h2>
       
       <div className="mt-12">

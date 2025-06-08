@@ -8,6 +8,7 @@ type ProjectsProps = {
 
 const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
   const [activeFilter, setActiveFilter] = useState('All');
+  const [activeOverlay, setActiveOverlay] = useState<number | null>(null);
   
   const projects = [
     {
@@ -20,38 +21,40 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
       githubUrl: 'https://github.com/muskaan-gupta/CraftedNest',
     },
     {
-      title: 'FlashLearn',
-      category: 'Web App',
-      description: "FlashLearn is a responsive flashcard app that helps users study using custom flip cards. Users can manage profiles, create, like, delete cards, and explore public flashcards anonymously.It’s a clean, intuitive interface designed to make studying engaging and organized.",
-      technologies:  ["React", "TailwindCSS", "Node.js", "Express", "MongoDB"],
-      videoUrl: '',
-      liveUrl: 'https://app-flashlearn.onrender.com/',
-      githubUrl: 'https://github.com/muskaan-gupta/Flashcard-Learning-Tool',
+      title: 'QuizWhiz',
+      category: 'Mobile App',
+      description: "It is an interactive online quiz game that offers users a fun way to test their knowledge across categories like Brain Teasers, History, Coding, and Science. It features a clean and responsive UI built using modern web technologies. The project aims to combine learning with engagement in an accessible format.",
+      technologies: ["React", "Tailwind CSS", "Context API"],
+      videoUrl: '/quizwhiz.mp4',
+      liveUrl: "https://quizwhiz-mu.vercel.app/",
+      githubUrl: "https://github.com/muskaan-gupta/QuizWhiz",
     },
+    
     {
       title: 'Netflix Clone',
       category: 'Web App',
       description: "A Netflix clone built with React and Tailwind CSS, featuring a responsive design, user authentication, and a movie browsing experience. Users can explore a wide range of movies and TV shows, complete with trailers and detailed information.",
       technologies: ["JavaScript", "HTML", "CSS"],
-      videoUrl: '#',
+      videoUrl: '/netflix.mp4',
       liveUrl: 'https://example.com',
       githubUrl: 'https://github.com/muskaan-gupta/Netflix-clone',
     },
     {
-      title: 'QuizWhiz',
-      category: 'Mobile App',
-      description: "It is an interactive online quiz game that offers users a fun way to test their knowledge across categories like Brain Teasers, History, Coding, and Science. It features a clean and responsive UI built using modern web technologies. The project aims to combine learning with engagement in an accessible format.",
-      technologies: ["React", "Tailwind CSS", "Context API"],
-      videoUrl: '#',
-      liveUrl: "https://quizwhiz-mu.vercel.app/",
-      githubUrl: "https://github.com/muskaan-gupta/QuizWhiz",
+      title: 'FlashLearn',
+      category: 'Web App',
+      description: "FlashLearn is a responsive flashcard app that helps users study using custom flip cards. Users can manage profiles, create, like, delete cards, and explore public flashcards anonymously.It’s a clean, intuitive interface designed to make studying engaging and organized.",
+      technologies:  ["React", "TailwindCSS", "Node.js", "Express", "MongoDB"],
+      videoUrl: '/Flashlearn.mp4',
+      liveUrl: 'https://app-flashlearn.onrender.com/',
+      githubUrl: 'https://github.com/muskaan-gupta/Flashcard-Learning-Tool',
     },
+    
     {
       title: '"Weather Dashboard"',
       category: 'CMS',
       description: "A beautiful weather dashboard that displays current weather and forecasts. Features include location search and weather maps.",
       technologies: ["JavaScript", "OpenWeather API", "HTML", "CSS"],
-      videoUrl: '#',
+      videoUrl: '/weather.mp4',
       liveUrl: "https://weather-today-three.vercel.app/",
       githubUrl: "https://github.com/muskaan-gupta/Weather-today",
     },
@@ -60,7 +63,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
       category: 'Mobile App',
       description: 'A fitness application for tracking workouts, nutrition, and progress over time.',
       technologies: ['Flutter', 'Firebase', 'Google Fit API'],
-      videoUrl: '#',
+      videoUrl: '/fitness.mp4',
       liveUrl: 'https://example.com',
       githubUrl: 'https://github.com',
     },
@@ -122,6 +125,12 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.5, delay: index * 0.1 }}
     viewport={{ once: true }}
+      onClick={() => {
+              // Only toggle on small screens
+              if (window.innerWidth < 768) {
+                setActiveOverlay(activeOverlay === index ? null : index);
+              }
+            }}
   >
     {/* Video Background */}
     <div className="relative h-60 overflow-hidden">
@@ -133,7 +142,17 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
         loop
       />
       {/* Overlay: Only description and technologies */}
-      <div className="project-overlay absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-6">
+     <div
+                className={
+                  `project-overlay absolute inset-0 bg-black bg-opacity-70
+                  transition-opacity duration-300 flex flex-col justify-center items-center p-6
+                  opacity-0 group-hover:opacity-100
+                  ` +
+                  // Show overlay if active on mobile
+                  (activeOverlay === index ? ' !opacity-100' : '')
+                }
+                style={{ cursor: 'pointer' }}
+              >
         <p className="text-sm text-gray-300 text-center mb-4">{project.description}</p>
         <div className="flex flex-wrap justify-center gap-2">
           {project.technologies.map((tech, i) => (

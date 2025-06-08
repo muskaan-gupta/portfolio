@@ -34,13 +34,6 @@ const Education: React.FC<EducationProps> = ({ darkMode }) => {
   
   const certifications = [
     {
-      title: 'Flipkart GRiD 6.0',
-
-      issuer: 'Flipkart',
-      date: 'October 2024',
-      url: 'https://drive.google.com/file/d/1kwnQhuGHu_oek1Di5UmyYfhAhheHbBX3/view?usp=sharing',
-    },
-    {
       title: 'AgentBlazer Championship',
       issuer: 'Salesforce',
       date: 'April 2025',
@@ -52,18 +45,32 @@ const Education: React.FC<EducationProps> = ({ darkMode }) => {
       date: 'January 2022',
       url: 'https://example.com/cert3',
     },
-    {
-      title: 'Python Certification',
-      issuer: 'Infosys',
-      date: 'November 2022',
-      url: 'https://example.com/cert4',
-    },
+
     {
       title: ' Objecjt Oriented Programming using Python',
       issuer: 'Infosys',
       date: 'January 2023',
-      url: 'https://example.com/cert4',
+      url: 'https://drive.google.com/file/d/1eOFJYZwVE8oc97TI6BrChbVmhvhEo3vO/view?usp=sharing',
     },
+    {
+      title: 'Flipkart Runway Season 4 ',
+      issuer: 'Flipkart',
+      date: 'March 2024',
+      url: 'https://drive.google.com/file/d/1n6pHJdTEGQZKk3qMSJjb-CkifV2uAUqr/view?usp=sharing',
+    },
+    {
+      title: 'Folonite Winter Internship Contest 2024',
+      issuer: 'Folonite',
+      date: 'August 2024',
+      url: 'https://drive.google.com/file/d/1DB3LkMnseP6fdPm-a4_sXQ0x2nXpP5l-/view?usp=sharing',
+    },
+     {
+      title: 'Introduction to Data Science',
+      issuer: 'Infosys',
+      date: 'August 2024',
+      url: 'https://drive.google.com/file/d/1T7wiSDwTSlQTMHPJBs5_gZPDYz092JXt/view?usp=sharing',
+    },
+     
   ];
 
   return (
@@ -75,7 +82,6 @@ const Education: React.FC<EducationProps> = ({ darkMode }) => {
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
       >
-        Education
       </motion.h2>
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12">

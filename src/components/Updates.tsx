@@ -21,10 +21,10 @@ const Updates: React.FC<UpdatesProps> = ({ darkMode }) => {
       description: 'Finished an advanced course on React Native, enhancing my skills in mobile app development.',
     },
     {
-      title: 'Attended React Conference 2025',
-      date: 'April 20, 2025',
-      category: 'Event',
-      description: 'Participated in the annual React Conference, learning about the latest trends and best practices in React development.',
+      title: 'Flipkart GRiD 6.0 Competition',
+      date: 'Auguest, 2024',
+      category: 'Achievement',
+      description: 'Participated in the Flipkart GRiD 6.0 competition, a prestigious coding contest that tests problem-solving and algorithmic skills.',
 
     },
     {
@@ -68,7 +68,6 @@ const Updates: React.FC<UpdatesProps> = ({ darkMode }) => {
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
       >
-        Updates
       </motion.h2>
       
       <div className="mt-12">

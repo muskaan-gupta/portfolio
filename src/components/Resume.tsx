@@ -56,7 +56,7 @@ const Resume: React.FC<ResumeProps> = ({ darkMode }) => {
         >
           <div className="aspect-[7.5/11] w-full h-full">
             <iframe
-              src="https://drive.google.com/file/d/1p8ChdL01ywgt3I_mEkLyA_JD-_ZxGkSr/preview"
+              src="https://drive.google.com/file/d/10A1ajNA_41TnNQXuK_VgWPo8Q-Rb3Haf/preview"
               title="Resume Preview"
               className="w-full h-full"
               allow="autoplay"
