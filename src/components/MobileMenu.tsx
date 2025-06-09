@@ -53,7 +53,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ darkMode, onClose }) => {
           {[
             { icon: <Home size={20} />, label: 'Home', href: '#home' },
             { icon: <User size={20} />, label: 'About Me', href: '#about' },
-            { icon: <Folder size={20} />, label: 'Portfolio', href: '#projects' },
+            { icon: <Folder size={20} />, label: 'Project', href: '#projects' },
             { icon: <Code size={20} />, label: 'Skills', href: '#skills' },
             { icon: <Briefcase size={20} />, label: 'Experience', href: '#experience' },
             { icon: <GraduationCap size={20} />, label: 'Education', href: '#education' },

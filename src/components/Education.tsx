@@ -45,7 +45,6 @@ const Education: React.FC<EducationProps> = ({ darkMode }) => {
       date: 'January 2022',
       url: 'https://example.com/cert3',
     },
-
     {
       title: ' Objecjt Oriented Programming using Python',
       issuer: 'Infosys',
