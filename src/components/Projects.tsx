@@ -16,7 +16,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
       category: 'Web App',
       description: "An online marketplace that bridges the gap between passionate local artisans and customers seeking unique, handcrafted goods. Built using Next.js, the platform delivers a fast, seamless, and mobile-friendly experience, empowering creators to showcase and sell their beautiful creations with ease.",
       technologies:  ["Next.js", "React", "Tailwind CSS", "Firebase"],
-      videoUrl: '#',
+      videoUrl: 'craftednest.mp4',
       liveUrl: '#',
       githubUrl: 'https://github.com/muskaan-gupta/CraftedNest',
     },

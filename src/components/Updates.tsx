@@ -9,10 +9,28 @@ type UpdatesProps = {
 const Updates: React.FC<UpdatesProps> = ({ darkMode }) => {
   const updates = [
     {
-      title: 'Started a new project -CraftedNest',
-      date: 'December 5, 2024',
+      title: '700+ Problem Soved on LeetCode and HackerRank',
+      date: 'March 1, 2025',
+      category: 'Achievement',
+      description: 'Achieved a significant milestone by solving over 500 problems on LeetCode, enhancing my problem-solving skills and algorithmic thinking. This accomplishment has prepared me for competitive programming and technical interviews.',
+    },
+    {
+      title: 'Started learning Machine Learning',
+      date: 'June 15, 2025',
+      category: 'Personal Development',
+      description: 'Began a new journey into machine learning, focusing on Python libraries like TensorFlow and scikit-learn. The goal is to build predictive models and explore data science applications.',
+    },
+    {
+      title: 'Developed a new project - CraftedNest',
+      date: 'March 5, 2025',
       category: 'project',
       description: 'Initiated a new project called CraftedNest, a platform for handmade crafts and artisan goods. The project aims to connect local artisans with customers looking for unique, handcrafted items using Next.js and Tailwind CSS.',
+    },
+    {
+      title: 'Developed a new Application FitLife-AI',
+      date: 'January 5, 2025',
+      category: 'project',
+      description: 'Launched FitLife-AI, a health and fitness application that provides personalized workout and nutrition plans using AI algorithms. The app is designed to help users achieve their fitness goals with tailored recommendations.',
     },
     {
       title: 'Completed React Native Course',
@@ -32,12 +50,6 @@ const Updates: React.FC<UpdatesProps> = ({ darkMode }) => {
       date: 'May 30, 2025',
       category: 'Project',
       description: 'Created a new personal portfolio website to showcase my projects and skills. Built with React.js and Tailwind CSS for a modern look.',
-    },
-    {
-      title: 'Published Article on Medium',
-      date: 'April 10, 2023',
-      category: 'Publication',
-      description: 'Published an in-depth article about microservices architecture and best practices.',
     },
     {
       title: 'Completed Agentblazer Champion Certification',
