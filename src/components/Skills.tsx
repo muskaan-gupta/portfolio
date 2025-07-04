@@ -12,6 +12,7 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
   const skills = [
     { name: 'JavaScript', icon:'JS' },
     { name: 'React', icon: '⚛️' },
+    { name: 'Matplotlib', icon: '📊' },
 
     { name: 'Angular', icon: '🅰️' },
 
@@ -45,6 +46,12 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
       title: 'Database',
       skills: ['MongoDB',  'MySQL', 'Firebase' ]
     },
+    {
+      title: 'Data Science',
+      skills: ['Pandas', 'NumPy', 'Matplotlib']
+      
+    },
+    
     // {
     //   title: 'DevOps',
     //   skills: ['Docker', 'Kubernetes', 'AWS', 'GCP', 'CI/CD', 'Jenkins']
