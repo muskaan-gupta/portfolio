@@ -27,7 +27,7 @@ const Education: React.FC<EducationProps> = ({ darkMode }) => {
       degree: "Intermediate",
       institution: "Kanpur Vidya Mandir Girls Inter College",
       period: "2020-2021",
-      Persentage: "80.4%",
+      Persentage: "80%",
       description: "Completed comprehensive curriculum with a focus on Mathematics and Science."
     },
   ];
@@ -40,10 +40,10 @@ const Education: React.FC<EducationProps> = ({ darkMode }) => {
       url: 'https://drive.google.com/file/d/11oA0XRcwolloCu82Kw4_7kb34FgwxCe3/view?usp=sharing',
     },
     {
-      title: 'React  Certification',
-      issuer: 'Meta',
-      date: 'January 2022',
-      url: 'https://example.com/cert3',
+      title: 'Data Science Essentials with Python',
+      issuer: 'Cisco',
+      date: 'June 2025',
+      url: 'https://drive.google.com/file/d/1xaxq3qAnELC9y-zdfdVj_WeMk8-qXGOt/view?usp=sharing',
     },
     {
       title: ' Objecjt Oriented Programming using Python',
@@ -52,16 +52,16 @@ const Education: React.FC<EducationProps> = ({ darkMode }) => {
       url: 'https://drive.google.com/file/d/1eOFJYZwVE8oc97TI6BrChbVmhvhEo3vO/view?usp=sharing',
     },
     {
-      title: 'Flipkart Runway Season 4 ',
-      issuer: 'Flipkart',
-      date: 'March 2024',
-      url: 'https://drive.google.com/file/d/1n6pHJdTEGQZKk3qMSJjb-CkifV2uAUqr/view?usp=sharing',
+      title: 'C++ Essentials',
+      issuer: 'Cisco',
+      date: 'June 2025',
+      url: 'https://drive.google.com/file/d/1YseU_-NYxnmP_nS3Ul8c4Tzb8GfXGPZ9/view?usp=sharing',
     },
     {
-      title: 'Folonite Winter Internship Contest 2024',
-      issuer: 'Folonite',
+      title: 'React',
+      issuer: 'Coursera',
       date: 'August 2024',
-      url: 'https://drive.google.com/file/d/1DB3LkMnseP6fdPm-a4_sXQ0x2nXpP5l-/view?usp=sharing',
+      url: 'https://drive.google.com/file',
     },
      {
       title: 'Introduction to Data Science',
