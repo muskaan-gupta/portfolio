@@ -41,7 +41,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ darkMode, onClose }) => {
             className="w-full h-full object-cover"
           />
         </div>
-        <h2 className="mt-4 text-xl font-bold">Your Name</h2>
+        <h2 className="mt-4 text-xl font-bold">Muskan Gupta</h2>
         <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
            Software Developer
         </p>
