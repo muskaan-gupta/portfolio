@@ -17,19 +17,20 @@ const Education: React.FC<EducationProps> = ({ darkMode }) => {
 
     },
     {
-      degree: "High School",
-      institution: "Kanpur Vidya Mandir Girls Inter College",
-      period: "2018 - 2019",
-      Persentage: "86.5%",
-      description: "Completed comprehensive curriculum with a focus on Mathematics and Science."
-    },
-    {
       degree: "Intermediate",
       institution: "Kanpur Vidya Mandir Girls Inter College",
       period: "2020-2021",
       Persentage: "80%",
       description: "Completed comprehensive curriculum with a focus on Mathematics and Science."
     },
+    {
+      degree: "High School",
+      institution: "Kanpur Vidya Mandir Girls Inter College",
+      period: "2018 - 2019",
+      Persentage: "86.5%",
+      description: "Completed comprehensive curriculum with a focus on Mathematics and Science."
+    },
+    
   ];
   
   const certifications = [
@@ -46,7 +47,7 @@ const Education: React.FC<EducationProps> = ({ darkMode }) => {
       url: 'https://drive.google.com/file/d/1xaxq3qAnELC9y-zdfdVj_WeMk8-qXGOt/view?usp=sharing',
     },
     {
-      title: ' Objecjt Oriented Programming using Python',
+      title: ' Object Oriented Programming using Python',
       issuer: 'Infosys',
       date: 'January 2023',
       url: 'https://drive.google.com/file/d/1eOFJYZwVE8oc97TI6BrChbVmhvhEo3vO/view?usp=sharing',
