@@ -34,7 +34,7 @@ const Sidebar: React.FC<SidebarProps> = ({ darkMode }) => {
             className="w-full h-full object-cover"
           />
         </div>
-        <h2 className="mt-2 text-xl font-bold">Your Name</h2>
+        <h2 className="mt-2 text-xl font-bold">Muskan Gupgta</h2>
         <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
           Software Developer
         </p>
