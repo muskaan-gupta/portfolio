@@ -29,15 +29,14 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
       liveUrl: "https://quizwhiz-mu.vercel.app/",
       githubUrl: "https://github.com/muskaan-gupta/QuizWhiz",
     },
-    
     {
-      title: 'Netflix Clone',
-      category: 'Web App',
-      description: "A Netflix clone built with React and Tailwind CSS, featuring a responsive design, user authentication, and a movie browsing experience. Users can explore a wide range of movies and TV shows, complete with trailers and detailed information.",
-      technologies: ["JavaScript", "HTML", "CSS"],
-      videoUrl: '/netflix.mp4',
+      title: 'Fitness Tracker',
+      category: 'Mobile App',
+      description: 'A fitness application for tracking workouts, nutrition, and progress over time.',
+      technologies: ['Flutter', 'Firebase', 'Google Fit API'],
+      videoUrl: '/fitness.mp4',
       liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/muskaan-gupta/Netflix-clone',
+      githubUrl: 'https://github.com',
     },
     {
       title: 'FlashLearn',
@@ -58,15 +57,16 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
       liveUrl: "https://weather-today-three.vercel.app/",
       githubUrl: "https://github.com/muskaan-gupta/Weather-today",
     },
-    {
-      title: 'Fitness Tracker',
-      category: 'Mobile App',
-      description: 'A fitness application for tracking workouts, nutrition, and progress over time.',
-      technologies: ['Flutter', 'Firebase', 'Google Fit API'],
-      videoUrl: '/fitness.mp4',
+        {
+      title: 'Netflix Clone',
+      category: 'Web App',
+      description: "A Netflix clone built with React and Tailwind CSS, featuring a responsive design, user authentication, and a movie browsing experience. Users can explore a wide range of movies and TV shows, complete with trailers and detailed information.",
+      technologies: ["JavaScript", "HTML", "CSS"],
+      videoUrl: '/netflix.mp4',
       liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      githubUrl: 'https://github.com/muskaan-gupta/Netflix-clone',
     },
+    
     {
       title: 'TalkHub',
       category: 'CMS',
