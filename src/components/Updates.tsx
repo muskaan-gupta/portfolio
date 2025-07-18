@@ -8,6 +8,12 @@ type UpdatesProps = {
 
 const Updates: React.FC<UpdatesProps> = ({ darkMode }) => {
   const updates = [
+     {
+      title: 'Learning  new Language PHP',
+      date: 'June 25, 2025',
+      category: 'Personal Development',
+      description: 'Developed a dynamic blog management system using core PHP and MySQL with CRUD operations, user interface, and secure backend logic.',
+    },
     {
       title: '700+ Problem Soved on LeetCode and HackerRank',
       date: 'March 1, 2025',
