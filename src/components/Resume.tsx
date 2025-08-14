@@ -25,7 +25,7 @@ const Resume: React.FC<ResumeProps> = ({ darkMode }) => {
           </div>
           <div className="flex gap-4">
             <a 
-              href="https://drive.google.com/file/d/1J_n46e2B47JqdCyQFOxDaHAshce0UO7G/view?usp=sharing" 
+              href="https://drive.google.com/file/d/1LRYSQ1P39V2SDqdKVS6LPd30LNwSOitg/view?usp=sharing" 
               target="_blank" 
               rel="noopener noreferrer"
               className={`btn flex items-center gap-2 ${
@@ -36,7 +36,7 @@ const Resume: React.FC<ResumeProps> = ({ darkMode }) => {
               <span>View</span>
             </a>
             <a 
-              href="https://drive.google.com/file/d/1J_n46e2B47JqdCyQFOxDaHAshce0UO7G/view?usp=sharing" 
+              href="https://drive.google.com/file/d/1LRYSQ1P39V2SDqdKVS6LPd30LNwSOitg/view?usp=sharing" 
               download="Muskan's_Resume.pdf"
               className="btn btn-primary flex items-center gap-2"
             >
@@ -56,7 +56,7 @@ const Resume: React.FC<ResumeProps> = ({ darkMode }) => {
         >
           <div className="aspect-[7.5/11] w-full h-full">
             <iframe
-              src="https://drive.google.com/file/d/1J_n46e2B47JqdCyQFOxDaHAshce0UO7G/preview"
+              src="https://drive.google.com/file/d/1LRYSQ1P39V2SDqdKVS6LPd30LNwSOitg/preview"
               title="Resume Preview"
               className="w-full h-full"
               allow="autoplay"
