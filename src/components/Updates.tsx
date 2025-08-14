@@ -8,48 +8,47 @@ type UpdatesProps = {
 
 const Updates: React.FC<UpdatesProps> = ({ darkMode }) => {
   const updates = [
-     {
-      title: 'Learning  new Language PHP',
-      date: 'June 25, 2025',
-      category: 'Personal Development',
-      description: 'Developed a dynamic blog management system using core PHP and MySQL with CRUD operations, user interface, and secure backend logic.',
-    },
+    {
+  title: 'Top 30% in LeetCode Contest',
+  date: 'August 2025',
+  category: 'Competitive Programming',
+  description: 'Achieved a ranking within the top 30% of participants in a LeetCode contest, demonstrating consistent coding practice and algorithmic proficiency.',
+},
+    {
+  title: 'Learned OpenAI Integration',
+  date: 'August 2025',
+  category: 'Technical Skills',
+  description: 'Acquired hands-on experience in integrating OpenAI APIs into applications, enabling AI-powered features such as chatbots, text generation, and data analysis.',
+},
+   {
+  title: 'Cleared Flipkart GRiD 7.0 & Adobe 2025 Assessments (Round 2)',
+  date: 'July 2025',
+  category: 'Career Milestone',
+  description: 'Successfully cleared assessment rounds for Flipkart and Adobe recruitment processes, showcasing strong problem-solving and technical skills.',
+},
     {
       title: '700+ Problem Soved on LeetCode and HackerRank',
-      date: 'March 1, 2025',
+      date: 'March 2025',
       category: 'Achievement',
       description: 'Achieved a significant milestone by solving over 500 problems on LeetCode, enhancing my problem-solving skills and algorithmic thinking. This accomplishment has prepared me for competitive programming and technical interviews.',
     },
     {
       title: 'Started learning Machine Learning',
-      date: 'June 15, 2025',
+      date: 'June 2025',
       category: 'Personal Development',
       description: 'Began a new journey into machine learning, focusing on Python libraries like TensorFlow and scikit-learn. The goal is to build predictive models and explore data science applications.',
     },
     {
       title: 'Developed a new project - CraftedNest',
-      date: 'March 5, 2025',
+      date: 'March 2025',
       category: 'project',
       description: 'Initiated a new project called CraftedNest, a platform for handmade crafts and artisan goods. The project aims to connect local artisans with customers looking for unique, handcrafted items using Next.js and Tailwind CSS.',
     },
     {
       title: 'Developed a new Application FitLife-AI',
-      date: 'January 5, 2025',
+      date: 'January  2025',
       category: 'project',
       description: 'Launched FitLife-AI, a health and fitness application that provides personalized workout and nutrition plans using AI algorithms. The app is designed to help users achieve their fitness goals with tailored recommendations.',
-    },
-    {
-      title: 'Completed React Native Course',
-      date: 'May 15, 2025',
-      category: 'Education',
-      description: 'Finished an advanced course on React Native, enhancing my skills in mobile app development.',
-    },
-    {
-      title: 'Flipkart GRiD 6.0 Competition',
-      date: 'Auguest, 2024',
-      category: 'Achievement',
-      description: 'Participated in the Flipkart GRiD 6.0 competition, a prestigious coding contest that tests problem-solving and algorithmic skills.',
-
     },
     {
       title: 'Launched Personal Portfolio Website',
