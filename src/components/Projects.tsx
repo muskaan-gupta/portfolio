@@ -17,7 +17,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
       description: "An online marketplace that bridges the gap between passionate local artisans and customers seeking unique, handcrafted goods. Built using Next.js, the platform delivers a fast, seamless, and mobile-friendly experience, empowering creators to showcase and sell their beautiful creations with ease.",
       technologies:  ["Next.js", "React", "Tailwind CSS", "Firebase"],
       videoUrl: 'craftednest.mp4',
-      liveUrl: '#',
+      liveUrl: 'https://crafted-nest.vercel.app/',
       githubUrl: 'https://github.com/muskaan-gupta/CraftedNest',
     },
     {
@@ -69,12 +69,21 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
     
     {
       title: 'TalkHub',
-      category: 'CMS',
+      category: 'ML',
       description: "Developing an AI voice assistant that provides real-time, context-aware responses using natural language processing to enhance user interaction and productivity.",
       technologies: ["Google Speech APIs", "OpenAI GPT","Node.js","Express", "MongoDB","JavaScript", "HTML", "CSS"],
-      videoUrl: '#',
-      liveUrl: 'https://example.com',
+      videoUrl: 'https://mir-s3-cdn-cf.behance.net/project_modules/disp/53b47869571929.5b8609caeabed.gif',
+      liveUrl: 'https://github.com/muskaan-gupta/talkhub',
       githubUrl: "https://github.com/muskaan-gupta/talkhub",
+    },
+    {
+      title: 'Machine-and-Deep-Learning-Projects',
+      category: 'ML',
+      description: "Turning raw data into smart predictions: Regression, Classification & NLP in action.",
+      technologies: ["Python", "Numpy","Pandas","Matplotlib", "Scikit-learn","TensorFlow", "Google colab"],
+      videoUrl: 'https://rubikscode.net/wp-content/uploads/2022/08/Was-kommt-auf-uns-zu.gif',
+      liveUrl: 'https://github.com/muskaan-gupta/Machine-and-Deep-Learning-Projects',
+      githubUrl: "https://github.com/muskaan-gupta/Machine-and-Deep-Learning-Projects",
     },
     
   ];
