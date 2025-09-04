@@ -55,19 +55,19 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
             {[
               {
                 title: 'Frontend Development',
-                description: 'Building responsive web applications with modern frameworks and libraries.',
+                description: 'Building responsive and interactive web applications using modern frameworks and libraries.',
               },
               {
                 title: 'Backend Development',
-                description: 'Creating robust and scalable server-side applications and APIs.',
+                description: 'Developing robust and scalable server-side applications and APIs with secure data handling.',
               },
               {
-                title: 'UI/UX Design',
-                description: 'Designing intuitive user interfaces and engaging user experiences.',
+                title: 'AI/ML',
+                description: 'Building machine learning models for predictive analytics, NLP, and intelligent automation to solve real-world problems.',
               },
               {
-                title: 'Technical Consultation',
-                description: 'Providing expert advice on technology stack and architecture decisions.',
+                title: 'System Design',
+                description: 'Designing scalable, reliable, and efficient software systems with a focus on architecture, performance, and maintainability.',
               },
             ].map((item, index) => (
               <div key={index} className="flex">

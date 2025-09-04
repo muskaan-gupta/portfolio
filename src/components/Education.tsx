@@ -47,7 +47,7 @@ const Education: React.FC<EducationProps> = ({ darkMode }) => {
       url: 'https://drive.google.com/file/d/1xaxq3qAnELC9y-zdfdVj_WeMk8-qXGOt/view?usp=sharing',
     },
     {
-      title: ' Object Oriented Programming using Python',
+      title: 'Object Oriented Programming using Python',
       issuer: 'Infosys',
       date: 'January 2023',
       url: 'https://drive.google.com/file/d/1eOFJYZwVE8oc97TI6BrChbVmhvhEo3vO/view?usp=sharing',
@@ -65,10 +65,10 @@ const Education: React.FC<EducationProps> = ({ darkMode }) => {
       url: 'https://drive.google.com/file',
     },
      {
-      title: 'Introduction to Data Science',
-      issuer: 'Infosys',
-      date: 'August 2024',
-      url: 'https://drive.google.com/file/d/1T7wiSDwTSlQTMHPJBs5_gZPDYz092JXt/view?usp=sharing',
+      title: 'Agile and Scrum Master',
+      issuer: 'SimpliLearn',
+      date: 'Aug 2025',
+      url: '#',
     },
      
   ];
