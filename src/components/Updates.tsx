@@ -9,7 +9,20 @@ type UpdatesProps = {
 const Updates: React.FC<UpdatesProps> = ({ darkMode }) => {
   const updates = [
     {
-  title: 'Top 30% in LeetCode Contest',
+      title: 'Agile and Scrum Master',
+  date: 'August 2025',
+  category: 'Personal Development',
+  description: 'Gained hands-on knowledge of Agile methodology and Scrum practices, including sprint planning, backlog management, daily stand-ups, and retrospective sessions. Skilled in fostering collaboration, improving team productivity, and ensuring timely delivery of high-quality software solutions.',
+
+    },
+    {
+  title: 'FlipKart Grid 7.0 (Semi-Finalist)',
+  date: 'August 2025',
+  category: 'Competitive Programming',
+  description: 'Reached the semi-finals among 3+ lakh participants nationwide, showcasing strong problem-solving, innovation, and technical skills.',},
+
+    {
+  title: 'Top 20% in LeetCode Contest',
   date: 'August 2025',
   category: 'Competitive Programming',
   description: 'Achieved a ranking within the top 30% of participants in a LeetCode contest, demonstrating consistent coding practice and algorithmic proficiency.',
@@ -21,13 +34,13 @@ const Updates: React.FC<UpdatesProps> = ({ darkMode }) => {
   description: 'Acquired hands-on experience in integrating OpenAI APIs into applications, enabling AI-powered features such as chatbots, text generation, and data analysis.',
 },
    {
-  title: 'Cleared Flipkart GRiD 7.0 & Adobe 2025 Assessments (Round 2)',
+  title: 'Adobe 2025 Assessments (Round 2)',
   date: 'July 2025',
   category: 'Career Milestone',
-  description: 'Successfully cleared assessment rounds for Flipkart and Adobe recruitment processes, showcasing strong problem-solving and technical skills.',
+  description: 'Successfully cleared assessment rounds for Adobe recruitment processes, showcasing strong problem-solving and technical skills.',
 },
     {
-      title: '700+ Problem Soved on LeetCode and HackerRank',
+      title: '600+ Problem Soved on LeetCode and HackerRank',
       date: 'March 2025',
       category: 'Achievement',
       description: 'Achieved a significant milestone by solving over 500 problems on LeetCode, enhancing my problem-solving skills and algorithmic thinking. This accomplishment has prepared me for competitive programming and technical interviews.',
