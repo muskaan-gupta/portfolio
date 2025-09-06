@@ -65,8 +65,8 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
               {[
                 { icon: <Linkedin size={20} />, label: 'LinkedIn', href: 'https://www.linkedin.com/in/muskan-gupta-858753252/' },
                 { icon: <Github size={20} />, label: 'GitHub', href: 'https://github.com/muskaan-gupta' },
-                { icon: <Instagram size={20} />, label: 'Instagram', href: 'https://www.instagram.com/muskaan.gupta__/#' },
-                 { icon: <SiLeetcode size={20} />, label: 'LeetCode', href: 'https://lhttps://leetcode.com/u/muskan_gupta67/eetcode.com/your-username/' },
+                { icon: <Instagram size={20} />, label: 'Instagram', href: 'https://www.instagram.com/muskaan.gupta__/' },
+                 { icon: <SiLeetcode size={20} />, label: 'LeetCode', href: 'https://leetcode.com/u/muskan_gupta67/' },
               ].map((item, index) => (
                 <a
                   key={index}
