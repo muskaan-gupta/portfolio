@@ -101,7 +101,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
       description: "Developing an AI voice assistant that provides real-time, context-aware responses using natural language processing to enhance user interaction and productivity.",
       technologies: ["Google Speech APIs", "OpenAI GPT","Node.js","Express", "MongoDB","JavaScript", "HTML", "CSS"],
       videoUrl: 'https://mir-s3-cdn-cf.behance.net/project_modules/disp/53b47869571929.5b8609caeabed.gif',
-      liveUrl: 'https://github.com/muskaan-gupta/talkhub',
+      liveUrl: '',
       githubUrl: "https://github.com/muskaan-gupta/talkhub",
     },
     {
