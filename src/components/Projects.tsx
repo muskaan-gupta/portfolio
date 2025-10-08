@@ -20,6 +20,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
       liveUrl: 'https://crafted-nest.vercel.app/',
       githubUrl: 'https://github.com/muskaan-gupta/CraftedNest',
     },
+    
     {
       title: 'QuizWhiz',
       category: 'Mobile App',
@@ -47,7 +48,34 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
       liveUrl: 'https://app-flashlearn.onrender.com/',
       githubUrl: 'https://github.com/muskaan-gupta/Flashcard-Learning-Tool',
     },
+    {
+      title: 'Learning Managment System(LMS)',
+      category: 'Web App',
+      description: "The Learning Management System (LMS) is a full-stack web application for managing and delivering educational content. It supports user and admin roles, course creation, enrollment, subscription management, and analytics.",
+      technologies:  ["React.js", "MongoDB", "Tailwind CSS", "Firebase", "Cloudnary","Redux", "Node.js", "Express.js"],
+      videoUrl: 'LMS.mp4',
+      liveUrl: '#',
+      githubUrl: 'https://github.com/muskaan-gupta/Learning-Management-System',
+    },
     
+    {
+      title: 'Customer Churn Analysis',
+      category: 'ML',
+      description: "Performed exploratory data analysis and built a logistic regression model to predict customer churn, uncovering key factors influencing customer retention.",
+      technologies:  ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn"],
+      videoUrl: '#',
+      liveUrl: '#',
+      githubUrl: 'https://github.com/muskaan-gupta/Customer-Churn-Analysis-',
+    },
+    {
+      title: 'Sales Report- Dashboard(Power BI)',
+      category: 'Data Analysis',
+      description: "Created an interactive sales performance dashboard using Power BI, Power Query, and DAX to visualize revenue trends, customer segments, and product growth metrics.",
+      technologies:  ["Power BI", "Power Query", "DAX", "Excel"],
+      videoUrl: 'Dashboard.mp4',
+      liveUrl: '#',
+      githubUrl: 'https://github.com/muskaan-gupta/Sales-Report',
+    },
     {
       title: '"Weather Dashboard"',
       category: 'CMS',
@@ -88,7 +116,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
     
   ];
   
-  const filters = ['All', 'Web App', 'Mobile App', 'ML'];
+  const filters = ['All', 'Web App', 'Mobile App', 'ML', 'Data Analysis'];
   
   const filteredProjects = activeFilter === 'All' 
     ? projects 
