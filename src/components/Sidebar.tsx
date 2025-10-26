@@ -29,7 +29,7 @@ const Sidebar: React.FC<SidebarProps> = ({ darkMode }) => {
       <div className="text-center mb-8">
         <div className="relative w-28 h-28 mx-auto rounded-full overflow-hidden  dark:border-teal-400">
           <img
-            src="/avtar.png"
+            src="/avtar.jpeg"
             alt="Profile"
             className="w-full h-full object-cover"
           />

@@ -37,7 +37,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ darkMode, onClose }) => {
       <div className="mt-16 flex flex-col items-center w-full max-w-xs mx-auto">
         <div className="relative w-24 h-24 rounded-full overflow-hidden border-4 border-green-500 dark:border-teal-400">
           <img 
-            src="/avtar.png" 
+            src="/avtar.jpeg" 
             alt="Profile" 
             className="w-full h-full object-cover"
           />

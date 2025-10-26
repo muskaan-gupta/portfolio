@@ -59,13 +59,13 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
     },
     
     {
-      title: 'Customer Churn Analysis',
-      category: 'ML',
-      description: "Performed exploratory data analysis and built a logistic regression model to predict customer churn, uncovering key factors influencing customer retention.",
-      technologies:  ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn"],
-      videoUrl: '#',
-      liveUrl: '#',
-      githubUrl: 'https://github.com/muskaan-gupta/Customer-Churn-Analysis-',
+      title: 'Slack-Connect',
+      category: 'Web App',
+      description: "A full-stack web application that integrates with Slack to allow users to schedule and send messages to Slack channels. Built with React (TypeScript) frontend and Node.js/Express backend.",
+      technologies:  ["React.js", "Node.js", "OpenAI(Slack)", "Express.js", "MongoDB"],
+      videoUrl: 'slack.mp4',
+      liveUrl: 'https://the-slack-app.onrender.com/',
+      githubUrl: 'https://github.com/muskaan-gupta/slack-app',
     },
     {
       title: 'Sales Report- Dashboard(Power BI)',

@@ -62,8 +62,8 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
           <div className="relative w-72 h-72 md:w-96 md:h-96">
             <div className="absolute inset-0 rounded-full overflow-hidden  dark:border-teal-400">
               <img 
-                src="/avtar.png" 
-                alt="Your Name" 
+                src="/avtar.jpeg" 
+                alt="Muskan" 
                 className="w-full h-full object-cover"
               />
             </div>
