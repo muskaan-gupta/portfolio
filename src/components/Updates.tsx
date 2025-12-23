@@ -8,6 +8,7 @@ type UpdatesProps = {
 
 const Updates: React.FC<UpdatesProps> = ({ darkMode }) => {
   const updates = [
+ 
     {
   title: 'Built Sales Dashboard in Power BI',
   date: 'October 2025',
@@ -28,7 +29,7 @@ const Updates: React.FC<UpdatesProps> = ({ darkMode }) => {
   description: 'Reached the semi-finals among 3+ lakh participants nationwide, showcasing strong problem-solving, innovation, and technical skills.',},
 
     {
-  title: 'Top 20% in LeetCode Contest',
+  title: 'Top 17% in LeetCode Contest',
   date: 'August 2025',
   category: 'Competitive Programming',
   description: 'Achieved a ranking within the top 30% of participants in a LeetCode contest, demonstrating consistent coding practice and algorithmic proficiency.',

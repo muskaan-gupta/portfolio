@@ -28,7 +28,7 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
             <span className={darkMode ? "text-teal-400" : "text-green-600"}>Who I Am</span>
           </h3>
           <p className="text-lg leading-relaxed mb-6 text-gray-600 dark:text-gray-300">
-             I'm a passionate Full-Stack Developer with a strong focus on creating intuitive, responsive, and real-world web applications. I enjoy bringing ideas to life through clean code, modern UI, and scalable backend systems. Whether it's building from scratch or refining existing features, I love solving problems that make the user experience smoother and more impactful.
+             I'm a passionate Software Developer with a strong focus on creating intuitive, responsive, and real-world web applications. I enjoy bringing ideas to life through clean code, modern UI, and scalable backend systems. Whether it's building from scratch or refining existing features, I love solving problems that make the user experience smoother and more impactful.
           </p>
           <p className="text-lg leading-relaxed mb-6 text-gray-600 dark:text-gray-300">
             I specialize in the MERN stack, and have hands-on experience developing apps. My approach combines continuous learning, attention to detail, and a deep enthusiasm for building meaningful digital products.

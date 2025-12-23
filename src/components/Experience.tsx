@@ -8,6 +8,21 @@ type ExperienceProps = {
 
 const Experience: React.FC<ExperienceProps> = ({ darkMode }) => {
   const experiences = [
+     {
+      title: 'Software Developer',
+      company: 'Rudraksha Wellfare Foundation',
+      period: 'July 2025- Currently',
+      Location: 'Remote',
+      description: "Developed a complete NGO web platform end-to-end, covering requirement analysis, system design, backend development, SQL-based relational database modeling, and cloud deployment. Implemented a scalable client–server architecture with secure APIs, optimized database schemas, and production-ready deployment following the full SDLC process.",
+      achievements: [
+        "Led end-to-end SDLC execution, delivering the NGO platform from requirement analysis to cloud deployment.",
+        "Designed a normalized SQL database schema with proper relationships, ensuring data integrity and scalability.",
+        "Built secure and scalable backend APIs using a client–server architecture.",
+        "Delivered a fully functional, impact-driven system ready for real-world use.",
+      ],
+      technologies: ["React.js", "Tailwind CSS", "Node.js", "Express", "SQL","Cloud hosting"]
+
+    },
     {
       title: 'Full Stack Developer',
       company: 'WokGenics ',
@@ -21,6 +36,7 @@ const Experience: React.FC<ExperienceProps> = ({ darkMode }) => {
       ],
       technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express", "MongoDB"]
     },
+   
     
   ];
 

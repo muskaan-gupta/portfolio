@@ -36,7 +36,7 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
   const skillCategories = [
     {
       title: 'Frontend',
-      skills: ['React', 'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'Tailwind', 'Bootstrap', 'Next.js']
+      skills: ['React','HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'Tailwind', 'Bootstrap', 'Next.js']
     },
     {
       title: 'Backend',
